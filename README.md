@@ -19,27 +19,28 @@ A modern, responsive portfolio website for a Data Analyst, featuring a dark-them
 ## 📂 Project Structure
 
 ```text
-puchong-a-portfolio/
+docs/
 ├── index.html    # Main HTML structure
 ├── style.css     # Styling and theme variables
-├── script.js     # Interactivity and theme logic
-└── README.md     # Project documentation
+└── script.js     # Interactivity and theme logic
+README.md         # Project documentation
 ```
 
 ## 💻 Local Development
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/puchong-a-portfolio.git
+   git clone https://github.com/your-username/your-repo-name.git
    ```
-2. Open `index.html` in your favorite browser.
+2. Open `docs/index.html` in your favorite browser.
 
 ## 🌐 Deployment
 
-This project is designed to be hosted on **GitHub Pages**. To deploy:
+This project is designed to be hosted on **GitHub Pages** using the `docs` folder. To deploy:
 1. Push your code to a GitHub repository.
 2. Go to **Settings > Pages**.
-3. Select the `main` branch as the source and click **Save**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose the `main` branch and the `/docs` folder, then click **Save**.
 
 ## 📄 License
 
